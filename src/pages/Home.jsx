@@ -74,7 +74,7 @@ const Home = () => {
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
                 >
-                    <div className="bg-number" style={{ top: '-4rem', left: '-2rem' }}>26</div>
+                    {/* <div className="bg-number" style={{ top: '-4rem', left: '-2rem' }}>26</div> */}
 
                     <motion.section
                         className="profile"
