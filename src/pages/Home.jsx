@@ -94,9 +94,9 @@ const Home = () => {
                             <p className="text-label location">CONTENT CREATOR AND FOUNDER</p>
                         </motion.div>
 
-                        <motion.p className="text-body bio" variants={itemVariants}>
+                        {/* <motion.p className="text-body bio" variants={itemVariants}>
                             FOLLOW MY SOCIAL MEDIA ACCOUNTS.
-                        </motion.p>
+                        </motion.p> */}
                     </motion.section>
 
                     <motion.div
@@ -130,8 +130,8 @@ const Home = () => {
                     </motion.div>
 
                     <motion.div className="card-footer" variants={itemVariants}>
-                        <span className="text-label">V1.0</span>
-                        <span className="text-label status-indicator">LIVE NOW</span>
+                        <span className="text-label version">V1.01</span>
+                        <a className="text-label status-indicator" href="https://apps.justinpmoran.com">BROWSE APPS</a>
                     </motion.div>
                 </motion.div>
             </main>

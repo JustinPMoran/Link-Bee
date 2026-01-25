@@ -66,7 +66,7 @@ body,
   flex: 1;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items:baseline;
   padding: 2rem;
   z-index: 5;
 }
@@ -110,6 +110,7 @@ body,
   background-color: var(--background);
   border: 2px solid var(--border);
   padding: 4rem;
+  padding-bottom: 1.5rem !important;
   width: 100%;
   max-width: 600px;
   position: relative;
@@ -182,6 +183,18 @@ body,
   transition: var(--transition-fast);
   overflow: hidden;
   border-radius: 0;
+}
+
+.status-indicator:hover {
+  color: var(--accent) !important;
+  background-color: var(--accent-foreground);
+  padding: 14px;
+  /* Negative margin pulls the edges back in so the neighbors don't move */
+}
+
+.version {
+  margin-top: 6px;
+  margin-left: 14px;
 }
 
 .card-wrapper:hover .avatar-container {
@@ -291,6 +304,11 @@ body,
 
 .status-indicator {
   color: var(--accent);
+  transition: var(--transition-fast);
+  padding: 14px;
+  border: 2px solid var(--background);
+  margin-top: -10px;
+  text-decoration: none;
 }
 
 .card-wrapper:hover .status-indicator {
