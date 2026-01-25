@@ -69,6 +69,7 @@ body,
   align-items:baseline;
   padding: 2rem;
   z-index: 5;
+  padding-top: 1rem;
 }
 
 /* Marquee Styles */
