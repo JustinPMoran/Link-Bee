@@ -91,7 +91,7 @@ const Home = () => {
 
                         <motion.div className="profile-info" variants={itemVariants}>
                             <h1 className="text-heading">JUSTIN MORAN</h1>
-                            <p className="text-label location">CONTENT CREATOR AND FOUNDER</p>
+                            <p className="text-label location">CONTENT CREATOR & FOUNDER</p>
                         </motion.div>
 
                         {/* <motion.p className="text-body bio" variants={itemVariants}>
